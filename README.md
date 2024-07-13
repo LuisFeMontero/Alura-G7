@@ -45,12 +45,22 @@ Para clonar este repositorio y usarlo localmente:
 ```bash
 git clone https://github.com/LuisFeMontero/Alura-G7.git
 
-Tecnologías Utilizadas
-HTML: Estructura del sitio web
-CSS: Estilos y diseño del sitio web
-JavaScript: Lógica de encriptación y desencriptación
+```
 
-Personas Desarrolladoras del Proyecto
-Luis Felipe Montero - GitHub
-Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más información.
+## Tecnologías Utilizadas
+
+- **HTML**: Estructura del sitio web
+- **CSS**: Estilos y diseño del sitio web
+- **JavaScript**: Lógica de encriptación y desencriptación
+
+## Personas Contribuyentes
+
+- **No aplica**
+
+## Personas Desarrolladoras del Proyecto
+
+- **Luis Felipe Montero** - [GitHub](https://github.com/LuisFeMontero)
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](/License) para obtener más información.
