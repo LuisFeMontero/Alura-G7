@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+:root {
+    --color-primario: #F9ED69;
+    --color-secundario: #F08A5D;
+    --color-terciario: #B83B5E;
+    --color-hover: #6A2C70;
+
+    --fuente-baskerville: 'Baskervville SC', serif;
+}
+
+*{
+    background: var(--color-primario);
+    font-family: var(--fuente-baskerville);
+    padding: 0;
+    margin: 0;
+    
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.secciones{
+    display: flex;
+    height: 85vh;
+    
+}
+.div_seccion_1{
+    width: 60%;
+    color: var(--color-hover);
+    padding: 1em;
+}
+.div_text_area{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:87%;
+    
+    
+}
+.text-area{
+    width: 90%;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    resize: none;
+}
+.div_seccion_1 h6{
+    font-size: 12px;
+    height: 3%;
+    margin-left:50px;
+}
+h6.informacion{
+    padding: 1em;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+}
+.btn-encriptar{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+    background: var(--color-secundario);
+    color: var(--color-terciario);
+}
+.btn-encriptar:hover{
+    transform: scale(1.1);
+}
+
+.btn-desencriptar{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+    color: var(--color-secundario);
+    background: var(--color-terciario);
+    border-color: var(--color-secundario);
+}
+.btn-desencriptar:hover{
+    transform: scale(1.1);
+}
+
+
+.div_seccion_2{
+    width: 40%;
+}
+.div_mensaje{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.mensaje{
+    width: 70%;
+    background: var(--color-primario);
+    background-image: url(Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    resize: none;
+    
+}
+.div_seccion_2 h2{
+    
+    background: var(--color-primario);
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    color: var(--color-hover);
+    
+}
+.div_seccion_2 h3{
+    
+    background: var(--color-primario);
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    color: var(--color-hover);
+}
+.copiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    position: absolute;
+    bottom: 4px;
+}
+.btn-copiar{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    color: var(--color-secundario);
+    background: var(--color-terciario);
+    border-color: var(--color-secundario);
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primario);
+    height: auto;
+    padding: 0;
+}
+
+
+#footer .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 0 0;
+}
+
+.copy{
+    color: var(--color-hover);
+    padding: 1em;
+}
+
+
+.nav{
+    display: flex;
+    width: 265px;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 27px;
+    justify-content: center;
+    padding: 6px;
+}
+
+.github{
+width: 25px;
+}
+.github:hover{
+    transform: scale(1.5);
+}
+
+.aluracursos{
+    width: 17px;
+   
+}
+
+.aluracursos:hover{
+    transform: scale(1.5);
+}
+
+
+.linkedn{
+    width: 25px;
+}
+.linkedn:hover{
+    transform: scale(1.5);
+}
+
+
+.url{
+    width: 25px;
+}
+.url:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+/*Otros dispositivos*/
+
+
+@media screen and (max-width: 768px) {
+
+
+    .secciones {
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 60px;
+        padding: 1em;
+    }
+
+
+    .div_seccion_1, .div_seccion_2 {
+        width: 100%;
+        height: 600px;
+    }
+
+   
+    #footer.container, .copy, .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    body {
+        height: 160vh;
+    }
+
+    .div_seccion_1, .div_seccion_2 {
+        width: 100%;
+        height: 600px;
+        padding: 1em;
+    }
+
+  
+    .mensaje, .text-area {
+        width: 100%;
+    }
+}

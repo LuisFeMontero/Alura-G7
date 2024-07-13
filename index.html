@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <title>Encriptador Felipe Montero</title>
+    <link rel="icon" href="Imagenes/candado-encriptador.png" />
+</head>
+<body>
+    <!--Cabecera-->
+    <header>
+        <img src="Imagenes/Frame 6.png" alt= "logo de alura" class="logo">
+    </header>
+     <!--Cuerpo Encriptador-->
+    <main>
+        
+        <section>
+            <div class="secciones">
+                <div class="div_seccion_1" >
+                    <div class="div_text_area">
+                        <textarea  class="text-area"  placeholder="Ingresa el texto aquí"></textarea>
+                    </div>
+                    
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                    <div class="botones">
+                        <button class="btn-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="botonDesencriptar()" >Desencriptar</button>
+                    </div>
+                    
+                    
+                </div>
+                <div class="div_seccion_2">
+                    <div class="div_mensaje">
+                        <textarea class="mensaje"></textarea>
+                        <h2 class="mensaje_h2" onclick="botonEncriptar()">No se encontro ningun mensaje</h2>
+                        <h3 class="mensaje_h3" onclick="botonEncriptar()">Ingrese aquí el texto a encriptar o desencriptar</h3>
+                        <div class="copiar">
+                            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <section id="footer">
+            <div class="container">
+               <p class="copy">&copy; Copyright Luis Felipe Montero - 2024</p>
+            </div>
+            <div class="nav">
+                <a  href="https://github.com/LuisFeMontero" target="_blank"  rel="noreferrer noopener"> 
+                    <img class="github" src="Imagenes/github.png" alt="github" id="github">
+                </a>
+                
+                <a  href="https://app.aluracursos.com/user/psicologofelipemontero" target="_blank"  rel="noreferrer noopener">
+                    <img  class="aluracursos" src="Imagenes/Vector.png" alt="aluracursos" id="aluracursos">
+                </a>
+                
+                <a   href="https://www.linkedin.com/in/psicologofelipemontero/" target="_blank"  rel="noreferrer noopener">
+                    <img class="linkedn" src="Imagenes/linkedin.png" alt="linkedin" id="linkedin">
+                </a>
+                <a   href="https://campsite.bio/psicologofelipemontero" target="_blank"  rel="noreferrer noopener">
+                    <img class="url" src="Imagenes/enlace.png" alt="url" id="url">
+                </a>
+            </div>
+        </section>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
